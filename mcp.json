@@ -1,0 +1,51 @@
+{
+  "name": "david-wagner-ai-mcp",
+  "version": "1.0.0",
+  "description": "David Wagner AI Model Context Protocol Server for Autonomous Wireless Cryptanalysis, Software Static Verification, Electronic Voting Cryptography & Adversarial ML Invariant Protocol",
+  "tools": [
+    {
+      "name": "audit_cryptographic_protocol_vulnerabilities",
+      "description": "Analyze cipher implementations, wireless protocol state machines, and electronic voting verifiability against algebraic attacks",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "protocol_specification": {
+            "type": "string"
+          },
+          "cipher_primitive": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "protocol_specification"
+        ]
+      }
+    },
+    {
+      "name": "disburse_software_verification_bounty",
+      "description": "Trigger automated micro-escrow releases for static analysis vulnerability discovery, wireless security tooling, and secure ML model defenses",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
